@@ -1,0 +1,22 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node get_configuration.js"
+  },
+  "author": "Naman Kansal",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-url-shortener": "^2.0.3",
+    "nodemon": "^3.1.0",
+    "razorpay": "^2.9.3",
+    "stripe": "^15.4.0"
+  }
+}
